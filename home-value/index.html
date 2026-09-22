@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>What&#x27;s My Home Worth? | Scott Parsons</title>
+<meta name="description" content="A free home value from closed sales in Lima and Northwest Ohio, not a website estimate. No appointment required.">
+<link rel="canonical" href="https://scottparsonsrealestate.com/home-value/">
+<meta property="og:title" content="What&#x27;s My Home Worth? | Scott Parsons"><meta property="og:description" content="A free home value from closed sales in Lima and Northwest Ohio, not a website estimate. No appointment required."><meta property="og:image" content="https://scottparsonsrealestate.com/assets/scott.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="icon" href="/assets/ccr.jpg">
+
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/"><img src="/assets/ccr.jpg" alt="CCR, Realtors">Scott Parsons</a>
+  <nav class="nav"><a href="/buyers/">Buying</a><a href="/sellers/">Selling</a><a href="/both/">Doing both</a><a href="/fsbo/">Selling it yourself</a><a href="/home-value/" aria-current="page">Home value</a><a class="call" href="tel:4192347204">Call 419.234.7204</a></nav>
+</div></header>
+<section class="pagehead"><div class="wrap"><h1>What's my home worth?</h1><p>A real number from closed sales in your area, not a website guess. Free, no appointment, and you'll have it within a day.</p></div></section>
+<section class="band"><div class="wrap two">
+  <div class="prose">
+    <p class="lede">Online estimates don't know your roof is 22 years old or that your kitchen was redone last year. In smaller Ohio markets with fewer sales they can miss by 10% or more in either direction.</p>
+    <p>Here's what I do instead: pull three to five closed sales from the last six months that actually compare to your house, adjust honestly for what's different in both directions, look at what's pending and what's sitting, and give you a range and the reasoning behind it. Over the phone, or at your kitchen table if you'd rather.</p>
+    <p>No listing appointment comes with it. If you're two years from selling and just want a number to plan around, that's a fine reason to ask.</p>
+  </div>
+  <div class="form">
+    <b style="font-family:Poppins,sans-serif;color:var(--char)">Ask for your number</b>
+    <div class="field" style="margin-top:10px"><label for="n">Your name</label><input id="n" autocomplete="name"></div>
+    <div class="field"><label for="a">Property address</label><input id="a" autocomplete="street-address" placeholder="Street, town"></div>
+    <div class="field"><label for="w">Thinking of selling…</label><select id="w"><option>Within a year</option><option>1–2 years</option><option>Not sure, just curious</option></select></div>
+    <a class="btn primary" id="go" href="sms:4192347204">Text Scott</a>
+    <p class="fine" style="margin:8px 0 0">Opens your messaging app with a note already written. Or call 419.234.7204.</p>
+  </div>
+</div></section>
+<script>
+const $=i=>document.getElementById(i);function b(){const n=$("n").value.trim(),a=$("a").value.trim(),w=$("w").value;$("go").href="sms:4192347204?body="+encodeURIComponent(`Hi Scott, what's my home worth? ${a||"(address)"} — ${w.toLowerCase()}.${n?" — "+n:""}`)}["n","a","w"].forEach(i=>$(i).addEventListener("input",b));b();
+</script>
+
+<section class="contact"><div class="wrap">
+  <div><h2>Questions? Just call or text.</h2><p>No listing appointment, no pitch. A five-minute conversation is free.</p></div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn light" href="tel:4192347204">Call 419.234.7204</a><a class="btn light" href="sms:4192347204?body=Hi%20Scott%2C%20">Text Scott</a></div>
+</div></section>
+<footer><div class="wrap">
+  <div>
+    <b style="color:#fff;font-family:Poppins,sans-serif">Scott Parsons, REALTOR®</b><br>
+    CCR, Realtors · 1737 Allentown Rd, Lima, OH 45805 · Office (419) 222-0555<br>
+    Cell/text <a href="tel:4192347204">419.234.7204</a> · <a href="mailto:scott@scottparsonsrealestate.com">scott@scottparsonsrealestate.com</a><br>
+    Serving Lima and the surrounding Northwest Ohio communities
+    <div class="legal">Licensed in Ohio. Information on this site is general and not legal or financial advice. Equal Housing Opportunity.</div>
+  </div>
+  <div style="display:flex;gap:12px;align-items:center"><img src="/assets/sp.png" alt="Scott Parsons Real Estate" style="background:#fff;padding:4px"><img src="/assets/ccr.jpg" alt="CCR, Realtors"></div>
+</div></footer>
+<div class="bar"><div class="in"><a class="btn primary" href="sms:4192347204?body=Hi%20Scott%2C%20">Text Scott</a><a class="btn light" href="tel:4192347204">Call</a></div></div>
+</body>
+</html>
